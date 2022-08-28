@@ -24,11 +24,11 @@
     "dateAdded": "2022-08-10"
   },
     {
-        "id": 5,
-        "title": "Olympus Range of Greece",
-        "image": "../images/olympus.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod ex ut blandit condimentum.",
-        "dateAdded": "2022-08-10"
+      "id": 5,
+      "title": "Olympus Range of Greece",
+      "image": "../images/olympus.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod ex ut blandit condimentum.",
+      "dateAdded": "2022-08-10"
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "dateAdded": "2022-08-10"
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "Dolomites of Italy",
     "image": "../images/dolomites.png",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod ex ut blandit condimentum.",
