@@ -8,6 +8,7 @@ A basic feed listing built using React.js with sorting.
 
 ### Styling
 * Mountain feed listing used mobile-first approach, CSS modules, SASS and BEM-Methodology for styling.
+* Used  `picture source media ` in header image. The other approach is in  `background css ` but for this one I used picture element.
 
 ### Running the local environment ###
 
