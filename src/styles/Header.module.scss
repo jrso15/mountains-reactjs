@@ -1,0 +1,83 @@
+@import "variables.scss";
+
+.header {
+    width: 100%;
+    color: #fff;
+    position: relative;
+    &__banner {
+        img {
+            width: 100%;
+        }
+    }
+    &__texts {
+        width: 60%;
+        position: absolute;
+        top: 1em;
+        left: 1.5em;
+        .logo {
+            font-size: 1.1em;
+            font-weight: 600;
+            margin-top: 1em;
+        }
+        .title {
+            font-size: 1.8em;
+            margin-top: 1em;
+        }
+        .description {
+            font-size: .9em;
+            margin-top: .5em;
+            line-height: 1.5;
+        }
+    }
+}
+
+
+@media only screen and (min-width: $break_size_s) {
+    .header {
+        &__texts {
+            left: 3em;
+            .logo {
+                font-size: 1.3em;
+                font-weight: bold;
+            }
+            .title {
+                font-size: 2.2em;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: $break_size_m) {
+    .header {
+        &__texts {
+            left: 5em;
+            .logo {
+                font-size: 1.5em;
+            }
+            .title {
+                font-size: 3em;
+            }
+            .description {
+                font-size: 1.2em;
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width: $break_size_l) {
+    .header {
+        &__texts {
+            left: 7em;
+            .logo {
+                font-size: 1.8em;
+            }
+            .title {
+                font-size: 4.5em;
+            }
+            .description {
+                font-size: 1.5em;
+            }
+        }
+    }
+}
