@@ -1,6 +1,6 @@
 ## Mountain Feed Listing with ReactJS
 
-A basic feed listing React.js
+A basic feed listing built using React.js with sorting.
 
 ### API
 * Created a dummy data for feed listing.
