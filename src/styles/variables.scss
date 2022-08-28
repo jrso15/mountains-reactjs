@@ -1,0 +1,13 @@
+//media query
+$breakpoints: (
+  xl: 1400px,
+  l: 1180px,
+  m: 1024px,
+  s: 768px,
+);
+
+// Breakpoint sizes when using @media min-width
+$break_size_xl: map-get($breakpoints, "xl");
+$break_size_l: map-get($breakpoints, "l");
+$break_size_m: map-get($breakpoints, "m");
+$break_size_s: map-get($breakpoints, "s");
